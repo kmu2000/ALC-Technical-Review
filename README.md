@@ -30,13 +30,18 @@ Run **`AT_compare_MO.py`** to compare calculated values with Met Office AT0 and 
 ### 4. Download Daily Rainfall
 Use the script **`download_HadUKDaily.py`** to download daily rainfall.
 
-- **1961–1980**: To match with ALC baseline data.  
+- **1941–1970**: To match with ALC baseline data.  
 - **1991–2020**: To get the latest baseline data.  
 
 ---
 
 ### 5. Convert to AAR and ASR
 Use **`calcAR.py`** to convert rainfall data into AAR and ASR variables.
+
+---
+
+### 3. Compare with Met Office AAR and ASR
+Run **`AR_compare_MO.py`** to compare calculated values with Met Office AAR and ASR datasets.
 
 ---
 
